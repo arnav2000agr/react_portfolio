@@ -28,7 +28,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new 
+              My field of Interests are building new 
               <i>
                 <b className="purple">Web Applications </b> and
                 also in writing{" "}
@@ -43,12 +43,12 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Librarys and Frameworks
+                  Modern Javascript Libraries and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Angular. </b>
+                <b className="purple"> Angular, Vue etc. </b>
               </i>
             </p>
           </Col>

@@ -5,14 +5,11 @@ import {
   DiJavascript1,
   DiReact,
   DiGit,
-  DiJava
-  
+  DiJava,  
 } from "react-icons/di";
 import {
-  
   SiHtml5,
   SiCss3,
-  
 } from "react-icons/si";
 
 function Techstack() {

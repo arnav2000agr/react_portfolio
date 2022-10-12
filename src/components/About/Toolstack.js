@@ -1,12 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
   SiVisualstudiocode,
   SiGithub,
   SiHeroku,
   SiNetlify,
-  SiAndroidstudio,
+  SiAwsamplify
 } from "react-icons/si";
 
 function Toolstack() {
@@ -20,8 +19,12 @@ function Toolstack() {
       <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiAwsamplify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku/>
       </Col>
