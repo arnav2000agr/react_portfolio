@@ -3,6 +3,8 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiGithub,
+  SiDocker,
+  SiNginx,
   SiHeroku,
   SiNetlify,
   SiAwsamplify
@@ -12,7 +14,7 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
      
-      <Col xs={4} md={2} className="tech-icons">
+     <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -20,6 +22,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAwsamplify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiNginx />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
